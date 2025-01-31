@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Contact Information"
-  avatar           : "/assets/images/mifoto2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/mifoto3.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : 
   location         : 
   email            :
