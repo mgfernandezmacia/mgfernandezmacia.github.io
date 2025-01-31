@@ -125,8 +125,6 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 36px;
-  height: 36px;
 
   @include breakpoint($large) {
     display: block;
@@ -135,10 +133,11 @@
   }
 
   img {
-    width: 180px;  // Specify width
-    height: 210px; // Specify height to make it square
-    object-fit: cover; // Ensures the image covers the area well
-    border-radius: 0%; // Make it square, remove if you want it rounded
+    width: 100%;  // Make width responsive to parent container
+    max-width: 180px; // Maximum width of image on larger screens
+    height: auto;  // Maintain aspect ratio based on width
+    object-fit: cover; // Ensures the image covers the defined area without distortion
+    border-radius: 0%; // Keep it rectangular, no rounded corners
 
     @include breakpoint($large) {
       padding: 5px;
