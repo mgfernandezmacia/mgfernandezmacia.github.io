@@ -89,3 +89,21 @@
     font-weight: 700;
   }
 }
+
+@media (max-width: 768px) {
+    .masthead {
+        padding: 0.5em; /* Smaller padding */
+    }
+
+    .masthead .site-title, .masthead .site-subtitle {
+        font-size: smaller; /* Smaller font size */
+    }
+
+    .masthead nav {
+        font-size: 0.8em; /* Smaller font size for navigation links */
+    }
+
+    .masthead .site-logo img {
+        height: 30px; /* Smaller logo size */
+    }
+}
