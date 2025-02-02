@@ -17,6 +17,7 @@ permalink: /research/
 
 <ul style="padding-left: 10;">
     <li><h5 style="font-weight: bold;">Minimum Wages and Migrants' Labor Market Outcomes</h5></li>
+        <p style="font-style: italic; color: #808080; font-size: smaller; margin-top: 4px;"> Joint with Katia Gallegos</p>
     <li><h5 style="font-weight: bold; margin-bottom: 0;">Presence of Migrants and Voting Behaviour of Natives in Spain</h5>
         <p style="font-style: italic; color: #808080; font-size: smaller; margin-top: 4px;"> Joint with Jesús Fernández-Huertas and Luigi Minale</p>
     </li>
