@@ -232,7 +232,7 @@
       }
     }
 
-    @include breakpoint($large) {
+    @include breakpoint(200px) {
       display: none;
     }
   }
@@ -322,7 +322,6 @@
     }
   }
 }
-
 
 
 /*
