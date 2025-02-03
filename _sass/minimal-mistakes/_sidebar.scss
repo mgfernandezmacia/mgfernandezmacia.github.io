@@ -232,7 +232,7 @@
       }
     }
 
-    @include breakpoint(200px) {
+    @include breakpoint($large) {
       display: none;
     }
   }
@@ -277,7 +277,7 @@
     border-color: $border-color transparent;
     z-index: 0;
 
-    @include breakpoint(200px) {
+    @include breakpoint($large) {
       display: none;
     }
   }
