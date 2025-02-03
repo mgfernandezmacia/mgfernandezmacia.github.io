@@ -75,7 +75,7 @@
 .sidebar__right {
   margin-bottom: 1em;
 
-  @include breakpoint($large) {
+  @include breakpoint($small) {
     position: absolute;
     top: 0;
     inset-inline-end: 0;
@@ -152,7 +152,7 @@
   padding-inline: 15px 25px;
   line-height: 1;
 
-  @include breakpoint($large) {
+  @include breakpoint($medium) {
     display: block;
     width: 100%;
     padding-inline: 0;
@@ -320,48 +320,6 @@
     &:hover {
       text-decoration: underline;
     }
-  }
-}
-
-
-/* Testing for mobile screens */
-
-/* Existing styles for large screens remain unchanged */
-
-/* Additional mobile-specific styles */
-@media (max-width: 600px) {
-  .author__avatar,
-  .author__content,
-  .author__urls-wrapper {
-    display: block; /* Stacks the content vertically on small screens */
-    width: 100%; /* Ensures each element spans the full width of the screen */
-    text-align: center; /* Centers the content for better mobile readability */
-    padding: 10px 0; /* Add some vertical padding */
-  }
-
-  .author__avatar img {
-    max-width: 25%; /* Allows the image to resize within its container */
-    height: auto; /* Maintains aspect ratio */
-    margin: 0 auto; /* Centers the image within its block */
-  }
-
-  .author__content {
-    padding-inline: 10px; /* Adjusts padding for smaller screens */
-    line-height: 1.4; /* Enhances legibility by increasing line height */
-  }
-
-  .author__urls {
-    display: block; /* Ensure this is always visible on mobile */
-    position: static; /* Avoid absolute positioning that can cause overlap */
-    margin-top: 10px; /* Add some space above the URL list */
-    width: 100%; /* Full width */
-    padding: 10px; /* Proper padding around the links */
-    background-color: $background-color; /* Ensure background consistency */
-    border: 1px solid $border-color; /* Maintain border if necessary */
-  }
-
-  button {
-    display: none; /* Hide the 'Follow' button on smaller screens */
   }
 }
 
