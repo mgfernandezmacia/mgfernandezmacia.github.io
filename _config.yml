@@ -20,7 +20,7 @@ rtl                      : # true, false (default) # turns direction of the page
 title                    : "María Gertrudis Fernández Maciá"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "María Gertrudis Fernández Maciá" #
+name                     : "Maria Gertrudis Fernandez Macia UC3M Carlos III economics eco" #
 description              : 
 url                      : "https://mgfernandezmacia.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
